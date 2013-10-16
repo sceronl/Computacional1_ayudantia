@@ -436,5 +436,25 @@ La arquitectura del software es esencial y se expresa mediante modelos
 
 \end_layout
 
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+https://github.com/sceronl/Computacional1_ayudantia
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+http://noqualityinside.com/cursos/
+\end_layout
+
 \end_body
 \end_document

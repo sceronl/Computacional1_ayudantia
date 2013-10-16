@@ -181,8 +181,8 @@ Cuadro Comparativo
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="2">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="middle" width="6cm">
-<column alignment="center" valignment="middle" width="6cm">
+<column alignment="center" valignment="middle" width="5cm">
+<column alignment="center" valignment="middle" width="5cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
@@ -434,6 +434,28 @@ La arquitectura del software es esencial y se expresa mediante modelos
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Address
+https://github.com/sceronl/Computacional1_ayudantia
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+http://noqualityinside.com/cursos/
 \end_layout
 
 \end_body
