@@ -106,7 +106,77 @@ o pero manteniendo una alta calidad.
  En este trabajo se presenta dos ejemplos de metodologias, una agil (eXtre
  me Programming, XP) y otra tradicional y posterioremente se hara un cuadro
  comparativo entre ellas.
- ahora prueba el nacho
+\end_layout
+
+\begin_layout Quotation
+1.
+ INTRODUCCIÓN 
+\end_layout
+
+\begin_layout Abstract
+En las dos últimas décadas las notaciones de modelado y posteriormente las
+ herramientas pretendieron ser las "balas de plata" para el éxito en el
+ desarrollo de software, sin embargo, las expectativas no fueron satisfechas.
+ Esto se debe en gran parte a que otro importante elemento, la metodología
+ de desarrollo, había sido postergado.
+ De nada sirven buenas notaciones y herramientas si no se proveen directivas
+ para su aplicación.
+ Así, esta década ha comenzado con un creciente interés en metodologías
+ de desarrollo.
+ Hasta hace poco el proceso de desarrollo llevaba asociada un marcado énfasis
+ en el control del proceso mediante una rigurosa definición de roles, actividade
+s y artefactos, incluyendo modelado y documentación detallada.
+ Este esquema "tradicional" para abordar el desarrollo de software ha demostrado
+ ser efectivo y necesario en proyectos de gran tamaño (respecto a tiempo
+ y recursos), donde por lo general se exige un alto grado de ceremonia en
+ el proceso.
+ Sin embargo, este enfoque no resulta ser el más adecuado para muchos de
+ los proyectos actuales donde el entorno del sistema es muy cambiante, y
+ en donde se exige reducir drásticamente los tiempos de desarrollo pero
+ manteniendo una alta calidad.
+ Ante las dificultades para utilizar metodologías tradicionales con estas
+ restricciones de tiempo y flexibilidad, muchos equipos de desarrollo se
+ resignan a prescindir del “buen hacer” de la ingeniería del software, asumiendo
+ el riesgo que ello conlleva.
+ En este escenario , las metodologías ágiles emergen como una posible respuesta
+ para llenar ese vacío metodológico.
+ Por estar especialmente orientadas para proyectos pequeños, las metodologías
+ ágiles constituyen una solución a medida para ese entorno, aportando una
+ elevada simplificación que a pesar de ello no renuncia a las prácticas
+ esenciales para asegurar la calidad del producto.
+ Las metodologías ágiles son sin duda uno de los temas recientes en ingeniería
+ de software que están acaparando gran interés.
+ Prueba de ello es que se están haciendo un espacio destacado en 1 la mayoría
+ de conferencias y workshops celebrados en los últimos años.
+ Es tal su impacto que actualmente existen 4 conferencias internacionales
+ de alto nivel y específicas sobre el tema1 .
+ Además ya es un área con cabida en prestigiosas revistas internacionales.
+ En la comunidad de la ingeniería del software, se está viviendo con intensidad
+ un debate abierto entre los partidarios de las metodologías tradicionales
+ (referidas peyorativamente como "metodologías pesadas") y aquellos que
+ apoyan las ideas emanadas del "Manifiesto Ágil" 2 .
+ La curiosidad que siente la mayor parte de ingenieros de software, profesores,
+ e incluso alumnos, sobre las metodologías ágiles hace prever una fuerte
+ p royección industrial.
+ Por un lado, para muchos equipos de desarrollo el uso de metodologías tradicion
+ales les resulta muy lejano a su forma de trabajo actual considerando las
+ dificultades de su introducción e inversión asociada en formación y herramienta
+s.
+ Por otro, las características de los proyectos para los cuales las metodologías
+ ágiles han sido especialmente pensadas se ajustan a un amplio rango de
+ proyectos industriales de desarrollo de software; aquellos en los cuales
+ los equipos de desarrollo son pequeños, con plazos reducidos, requisitos
+ volátiles, y/o basados en nuevas tecnologías.
+ El artículo está organizado como sigue.
+ En la sección 2 se introducen las principales características de las metodologí
+as ágiles, recogidas en el Manifiesto y se hace una comparación con las
+ tradicionales.
+ La sección 3 se centra en eXtreme Programming (XP), presentando sus característ
+icas particulares, el proceso que se sigue y las prácticas que propone.
+ En la sección 4 se citan otros métodos ágiles, enumerándose sus principales
+ características.
+ Finalmente aparecen las conclusiones.
+ 
 \end_layout
 
 \end_body
