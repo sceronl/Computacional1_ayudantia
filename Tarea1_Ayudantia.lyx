@@ -77,7 +77,6 @@ Fernando Rubilar, Sebastian Ceron, Ignacio Briones
 \end_layout
 
 \begin_layout Abstract
-\renewcommand{\abstractname}{Introduccion}
 El desarrollo de software no es una tarea fácil.
  Prueba de ello es que existen numerosas propuestas metodológicas que inciden
  en distintas dimensiones del proceso de desarrollo.
