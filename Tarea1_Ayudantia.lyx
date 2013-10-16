@@ -76,7 +76,9 @@ Metodolodias de Desarrollo de Software
 Fernando Rubilar, Sebastian Ceron, Ignacio Briones
 \end_layout
 
-\begin_layout Section
+\begin_layout Paragraph
+
+\size small
 El desarrollo de software no es una tarea fácil.
  Prueba de ello es que existen numerosas propuestas metodológicas que inciden
  en distintas dimensiones del proceso de desarrollo.
@@ -108,12 +110,36 @@ o pero manteniendo una alta calidad.
  comparativo entre ellas.
 \end_layout
 
-\begin_layout Quotation
-1.
- INTRODUCCIÓN 
+\begin_layout Quote
+
+\series bold
+eXtreme me Programming XP
 \end_layout
 
-\begin_layout Abstract
+\begin_layout Paragraph
+
+\size small
+es una metodología ágil centrada en potenciar las relaciones interpersonales
+ como clave para el éxito en desarrollo de software, promoviendo el trabajo
+ en equipo, preocupándose por el aprendizaje de los desarrolladores, y propician
+do un buen clima de trabajo.
+ XP se basa en realimentación continua entre el cliente y el equipo de desarroll
+o, comunicación fluida entre todos los participantes, simplicidad en las
+ soluciones implementadas y coraje para enfrentar los cambios.
+ XP se define como especialmente adecuada para proyectos con requisitos
+ imprecisos y muy cambiantes, y donde existe un alto riesgo técnico.
+ 
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Metodolodia Tradicional
+\end_layout
+
+\begin_layout Paragraph
+
+\size small
 En las dos últimas décadas las notaciones de modelado y posteriormente las
  herramientas pretendieron ser las "balas de plata" para el éxito en el
  desarrollo de software, sin embargo, las expectativas no fueron satisfechas.
@@ -138,101 +164,25 @@ s y artefactos, incluyendo modelado y documentación detallada.
  restricciones de tiempo y flexibilidad, muchos equipos de desarrollo se
  resignan a prescindir del “buen hacer” de la ingeniería del software, asumiendo
  el riesgo que ello conlleva.
- En este escenario , las metodologías ágiles emergen como una posible respuesta
- para llenar ese vacío metodológico.
- Por estar especialmente orientadas para proyectos pequeños, las metodologías
- ágiles constituyen una solución a medida para ese entorno, aportando una
- elevada simplificación que a pesar de ello no renuncia a las prácticas
- esenciales para asegurar la calidad del producto.
- Las metodologías ágiles son sin duda uno de los temas recientes en ingeniería
- de software que están acaparando gran interés.
- Prueba de ello es que se están haciendo un espacio destacado en 1 la mayoría
- de conferencias y workshops celebrados en los últimos años.
- Es tal su impacto que actualmente existen 4 conferencias internacionales
- de alto nivel y específicas sobre el tema1 .
- Además ya es un área con cabida en prestigiosas revistas internacionales.
- En la comunidad de la ingeniería del software, se está viviendo con intensidad
- un debate abierto entre los partidarios de las metodologías tradicionales
- (referidas peyorativamente como "metodologías pesadas") y aquellos que
- apoyan las ideas emanadas del "Manifiesto Ágil" 2 .
- La curiosidad que siente la mayor parte de ingenieros de software, profesores,
- e incluso alumnos, sobre las metodologías ágiles hace prever una fuerte
- p royección industrial.
- Por un lado, para muchos equipos de desarrollo el uso de metodologías tradicion
-ales les resulta muy lejano a su forma de trabajo actual considerando las
- dificultades de su introducción e inversión asociada en formación y herramienta
-s.
- Por otro, las características de los proyectos para los cuales las metodologías
- ágiles han sido especialmente pensadas se ajustan a un amplio rango de
- proyectos industriales de desarrollo de software; aquellos en los cuales
- los equipos de desarrollo son pequeños, con plazos reducidos, requisitos
- volátiles, y/o basados en nuevas tecnologías.
- El artículo está organizado como sigue.
- En la sección 2 se introducen las principales características de las metodologí
-as ágiles, recogidas en el Manifiesto y se hace una comparación con las
- tradicionales.
- La sección 3 se centra en eXtreme Programming (XP), presentando sus característ
-icas particulares, el proceso que se sigue y las prácticas que propone.
- En la sección 4 se citan otros métodos ágiles, enumerándose sus principales
- características.
- Finalmente aparecen las conclusiones.
  
 \end_layout
 
-\begin_layout Standard
-2.
- METODOLOGÍAS ÁGILES 
-\end_layout
+\begin_layout Quote
 
-\begin_layout Abstract
-En febrero de 2001, tras una reunión celebrada en Utah-EEUU, nace el término
- “ágil” aplicado al desarrollo de software.
- En esta reunión participan un grupo de 17 expertos de la industria del
- software, incluyendo algunos de los creadores o impulsores de metodologías
- de software.
- Su objetivo fue esbozar los valores y principios que deberían permitir
- a los equipos desarrollar software rápidamente y respondiendo a los cambios
- que puedan surgir a lo largo del proyecto.
- Se pretendía ofrecer una alternativa a los procesos de desarrollo de software
- tradicionales, caracterizados por ser rígidos y dirigidos por la documentación
- que se genera en cada una de las actividades desarrolladas.
- Tras esta reunión se creó The Agile Alliance3 , una organización, sin ánimo
- de lucro, dedicada a promover los conceptos relacionados con el desarrollo
- ágil de software y ayudar a las organizaciones para que adopten dichos
- conceptos.
- El punto de partida es fue el Manifiesto Ágil, un documento que resume
- la filosofía “ágil”.
- 
+\series bold
+Cuadro Comparativo
 \end_layout
 
 \begin_layout Standard
 
-\end_layout
-
-\begin_layout Abstract
-2.1.
- El Manifiesto Ágil.
- Según el Manifiesto se valora: • Al individuo y las interacciones del equipo
- de desarrollo sobre el proceso y las herramientas.
- La gente es el principal factor de éxito de un proyecto software.
- Es más importante construir un buen equipo que construir el entorno.
- Muchas veces se comete el error de construir primero el entorno y esperar
- que el equipo se adapte automáticamente.
- Es mejor crear el equipo y que éste configure su propio entorno de desarrollo
- en base a sus necesidades.
- • Desarrollar software que funciona más que conseguir una buena documentación.
- La regla a seguir es “no producir documentos a menos que sean necesarios
- de forma inmediata para tomar un decisión importante”.
- Estos documentos deben ser cortos y centrarse en lo fundamental.
- 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="2">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="6cm">
-<column alignment="center" valignment="top" width="6cm">
+<column alignment="center" valignment="middle" width="5cm">
+<column alignment="center" valignment="middle" width="5cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
