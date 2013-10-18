@@ -443,6 +443,8 @@ key "key-1"
 
 \end_inset
 
+
+
 https://github.com/sceronl/Computacional1_ayudantia
 \end_layout
 
@@ -452,6 +454,9 @@ LatexCommand bibitem
 key "key-1"
 
 \end_inset
+
+http://es.wikipedia.org/wiki/LaTeX
+\end_layout
 
 http://noqualityinside.com/cursos/
 \end_layout
